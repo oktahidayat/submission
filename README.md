@@ -16,11 +16,14 @@ Buka Terminal atau Command Prompt (CMD), lalu arahkan ke dalam folder utama temp
 
 Bash
 cd jalur/ke/folder/submission
+
+
 2. Instalasi Dependencies
 Instal semua pustaka/library Python yang diperlukan dengan menjalankan perintah berikut:
 
 Bash
 pip install -r requirements.txt
+
 3. Menjalankan Aplikasi Streamlit
 Jalankan perintah di bawah ini untuk meluncurkan dashboard interaktif:
 
