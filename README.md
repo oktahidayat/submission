@@ -13,7 +13,9 @@ Ikuti langkah-langkah di bawah ini untuk mengeksekusi aplikasi di komputer Anda:
 
 1. Masuk ke Direktori Proyek
 Buka Terminal atau Command Prompt (CMD), lalu arahkan ke dalam folder utama tempat Anda mengekstrak submission ini:
-'''cd jalur/ke/folder/submission'''
+```
+cd jalur/ke/folder/submission
+```
 
 2. Instalasi Dependencies
 Instal semua pustaka/library Python yang diperlukan dengan menjalankan perintah berikut:
