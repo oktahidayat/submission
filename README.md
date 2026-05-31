@@ -8,21 +8,22 @@ Proyek ini adalah Dashboard Interaktif Analisis Kualitas Udara di Kota Beijing u
 * **Universitas:** Politeknik Negeri Banyuwangi
 * **Program:** Teknologi Rekayasa Perangkat Lunak
 
----
+🛠️ Panduan Menjalankan Dashboard di Lokal (Localhost)
+Ikuti langkah-langkah di bawah ini untuk mengeksekusi aplikasi di komputer Anda:
 
-## 📁 Struktur Direktori Submission
-Struktur folder ini telah disesuaikan dengan standar pedoman evaluasi submission:
+1. Masuk ke Direktori Proyek
+Buka Terminal atau Command Prompt (CMD), lalu arahkan ke dalam folder utama tempat Anda mengekstrak submission ini:
 
-```text
-submission/
-├── dashboard/
-│   ├── main_data.csv         # Data bersih tahun 2016 siap pakai
-│   └── dashboard.py          # Script utama aplikasi Streamlit
-├── data/
-│   ├── PRSA_Data_Aotizhongxin_20130301-20170228.csv
-│   ├── PRSA_Data_Changping_20130301-20170228.csv
-│   └── ... (12 file CSV mentah data stasiun asli dari dataset)
-├── notebook.ipynb            # File hulu-hilir analisis data (Google Colab)
-├── README.md                 # Berkas dokumentasi ini
-├── requirements.txt          # Daftar library dependency Python
-└── url.txt                   # Tautan/link dashboard di Streamlit Cloud (jika di-deploy)
+Bash
+cd jalur/ke/folder/submission
+2. Instalasi Dependencies
+Instal semua pustaka/library Python yang diperlukan dengan menjalankan perintah berikut:
+
+Bash
+pip install -r requirements.txt
+3. Menjalankan Aplikasi Streamlit
+Jalankan perintah di bawah ini untuk meluncurkan dashboard interaktif:
+
+Bash
+streamlit run dashboard/dashboard.py
+Setelah perintah dijalankan, sistem akan otomatis membuka browser default Anda dan mengarahkannya ke alamat lokal: http://localhost:8501.
